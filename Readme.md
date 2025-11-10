@@ -1,3 +1,3 @@
-https://t.me/dmytropotapov_bot
+t.me/dmytropotapov_bot
 
 Currently supporting only "/start hello" command
