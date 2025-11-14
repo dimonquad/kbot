@@ -46,7 +46,7 @@ to quickly create a Cobra application.`,
 			payload := c.Message().Payload
 			switch payload {
 			case "hello":
-				return c.Send("Hello! How can I help you?")
+				return c.Send("Hello! How can I help you? Current version is " + appVersion)
 			}
 			return err
 		})
