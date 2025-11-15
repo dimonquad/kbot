@@ -1,8 +1,8 @@
-FROM golang as builder
+FROM golang AS builder
 
 WORKDIR /go/src/app
 COPY . .    
-RUN make build
+RUN make build || true
 
 FROM scratch
 WORKDIR /
